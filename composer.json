@@ -1,0 +1,22 @@
+{
+    "name": "nelsonkopliku/anagrams-cli",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2.4",
+        "symfony/console": "^4.0",
+        "symfony/validator": "^4.0",
+        "phpunit/phpunit": "^7.1"
+    },
+    "authors": [
+        {
+            "name": "Nelson Kopliku",
+            "email": "nelson.kopliku@gmail.com"
+        }
+    ]
+}
